@@ -2,7 +2,7 @@
 #include <ControlButton.h>
 
 //Intance motor
-StepMotor motor(10, 9, 8, 12, "m");
+StepMotor motor(10, 11, 12, 13, "m");
 
 //Instance Button
 ControlButton botao(7,200,true);
