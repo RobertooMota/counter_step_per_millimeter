@@ -1,3 +1,4 @@
+#include<Arduino.h>
 #include <StepMotor.h>
 #include <ControlButton.h>
 
@@ -5,7 +6,7 @@
 StepMotor motor(10, 11, 12, 13, "m");
 
 //Instance Button
-ControlButton botao(7,200,true);
+ControlButton botao(2,200,true);
 
 //steps Counter
 unsigned int counter;
